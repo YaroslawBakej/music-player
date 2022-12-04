@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 540px;
+  height: 169px;
+  background: #111111;
+  border-radius: 14.6957px;
+}
+
+.left {
+  width: 169px;
+  height: 169px;
+}
+
+.right {
+  width: 371px;
+  height: 169px;
+}
+
+.top {
+  margin-top: 18px;
+  margin-right: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.author {
+  color: aliceblue;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 33px;
+}
+
+.spotify-img {
+  background-image: url(../assets/img/Vector.svg);
+  background-size: contain;
+  width: 20.61px;
+  height: 20.61px;
+}
+
+.song-name {
+  margin-top: 5px;
+  margin-left: 33px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #696969;
+}
+
+.song-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 19px;
+}
+.song-time .string {
+  width: 257px;
+  height: 3px;
+  margin-left: 33px;
+  background: #DADADA;
+}
+.song-time .progress {
+  width: 0px;
+  height: 3px;
+  background: #888686;
+}
+.song-time .time {
+  color: aliceblue;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 31px;
+}
+
+.btn-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 33px;
+  margin-top: 17px;
+}
+.btn-block .repeat {
+  background-image: url(../assets/img/Icon\(2\).svg);
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-block .prev-btn {
+  background-image: url(../assets/img/prevBtn.svg);
+  width: 35px;
+  height: 35px;
+  margin-left: 58px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-block .play {
+  background-image: url(../assets/img/playBtn.svg);
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-block .next-btn {
+  background-image: url(../assets/img/nextBtn.svg);
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-block .like {
+  background-image: url(../assets/img/Icon\(3\).svg);
+  width: 16px;
+  height: 16px;
+  margin-left: 58px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
